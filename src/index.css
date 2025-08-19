@@ -1,0 +1,17 @@
+body{
+  background:
+    url("public/images/pat2.svg"),
+    url("public/images/background-mobile.png"),
+    url("public/images/pattern-circle.svg");
+
+  background-size:
+    100%,
+    cover,
+    1000%;
+
+  background-position:
+    0% 0%,
+    30% ,
+    0 0;
+  background-repeat: no-repeat;
+  }
