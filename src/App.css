@@ -1,0 +1,21 @@
+#container{
+    text-align: center;
+    margin-top:15%;
+    margin-left:10%;
+    margin-right: 10%;
+  }
+h3{
+  font-family: sans-serif;
+  letter-spacing: 0.1em;
+}
+h1{
+  font-family:  Tahoma, sans-serif;
+  font-weight: lighter;
+}
+#sub{
+  font-family: sans-serif;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  color: hsl(252, 6%, 83%);
+}

@@ -1,17 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles can go here */
 body{
   background:
-    url("public/images/pat2.svg"),
-    url("public/images/background-mobile.png"),
-    url("public/images/pattern-circle.svg");
+    url("/images/pat2.svg"),
+    url("/images/background-mobile.png"),
+    url("/images/pattern-circle.svg");
 
   background-size:
-    100%,
+    70%,
     cover,
     1000%;
 
   background-position:
-    0% 0%,
-    30% ,
+    50% 0%,
+    20% 0,
     0 0;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   }
+  
