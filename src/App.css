@@ -1,8 +1,9 @@
 #container{
     text-align: center;
-    margin-top:15%;
-    margin-left:10%;
-    margin-right: 10%;
+    margin-top:10%;
+    margin-left:17%;
+    margin-right: 17%;
+    align-items: center;
   }
 h3{
   font-family: sans-serif;
@@ -17,5 +18,33 @@ h1{
   text-align: left;
   display: flex;
   flex-direction: column;
+  width: 400px;
   color: hsl(252, 6%, 83%);
+}
+#cont{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+#sub .input-desc{
+  margin-top: 30px;
+}
+#sub input{
+  background-color: hsl(248, 70%, 10%);
+  border-color: rgba(240, 248, 255, 0.588);
+  border-radius: 10px;
+  height: 40px;
+  color: aliceblue;
+}
+#submiti{
+  background-color: coral;
+  height: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  color: hsl(248, 70%, 10%);
+  font-size: 15px;
+}
+#email :invalid{
+  border-color: brown;
 }
