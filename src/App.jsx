@@ -3,9 +3,9 @@ import AvatarUploader from './UploadCase'
 import React,{ useState } from 'react';
 import Ticket from './ticket'
 function App() {
-  const [generated,setGenerated] = useState(true)
+  const [generated,setGenerated] = useState(false)
   const [formData, setFormData] = useState({
-    picture: "/images/image-avatar.jpg",
+    picture: "/images/neg.jpg",
     name: "Mustapha",
     email: "mustapha.mouchtarik2006@gmail.com",
     username: "Mouchta",
@@ -50,7 +50,7 @@ function App() {
               and will send updates in the run up to the event.</h3>
           </div>
           <div id="cont" style={{marginTop:"5rem",marginBottom:"20rem",height:"280",width:"600"}}>
-            <Ticket name={formData.name} picture={formData.picture}></Ticket>
+            <Ticket name={formData.name} picture={formData.picture} fullname={formData.name} username={formData.username}></Ticket>
           </div>
         </div>
 
@@ -83,7 +83,7 @@ function App() {
               <p className='input-desc'>Upload Avatar</p>
               <AvatarUploader onUpload={(img) => setFormData((p) => ({ ...p, picture: img }))}></AvatarUploader>
               <p className='input-desc'>Full Name</p>
-              <input id='name' type='text' value={formData.name} onChange={handleChange}></input>
+              <input id='name' type='text' onChange={handleChange}></input>
               <p className='input-desc'>Email Address</p>
               <input id='email' placeholder='exemple@email.com' type="email" onChange={handleChange}></input>
               <p className='input-desc'>Github Username</p>

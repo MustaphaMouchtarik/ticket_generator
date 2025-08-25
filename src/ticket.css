@@ -24,10 +24,11 @@
 }
 #verti2 h2{
     transform: rotate(90deg);
-    color: antiquewhite;
+    color: hsla(272, 88%, 94%, 0.182);
 }
 #hori1 img{
-    margin-left: -70px;
+    margin-left: -5px;
+    width: 300px;
 }
 
 #hori1 h5{
@@ -39,14 +40,24 @@
 #horimage img{
     left: 0%;
     bottom: 100%;
-    width: 60px;
+    width: 70px;
     border-radius: 10px;
 }
-#info{
 
-}
 
 #hori2{
     display: flex;
     flex-direction: row;
+}
+
+#info h2{
+    font-family:  Tahoma;
+    color: hsla(208, 100%, 97%, 0.9);
+    letter-spacing: 0.1em;
+    margin-top: 6px;
+    margin-left: 15px;
+}
+#info h5{
+    margin-left: -45px;
+    margin-top: -10px;
 }

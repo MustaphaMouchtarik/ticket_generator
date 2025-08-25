@@ -20,7 +20,8 @@ export default function ticket(props) {
                         <img src={props.picture}></img>
                     </div>
                     <div id="info">
-
+                        <h2>{props.fullname}</h2>
+                        <h5>@ {props.username}</h5>
                     </div>
                 </div>
 
