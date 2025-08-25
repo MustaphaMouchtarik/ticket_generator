@@ -1,0 +1,52 @@
+.cont{
+  width: 600px;   /* set your ticket width */
+  height: 280px;  /* set your ticket height */
+  background-image: url('/images/pattern-ticket.svg');
+  background-size: cover;   /* makes the image scale to cover */
+  background-position: center; /* centers the image */
+  background-repeat: no-repeat;
+  overflow: hidden;
+  color: hsla(0, 0%, 74%, 0.53);
+  font-family: sans-serif;
+  display: flex;
+}
+
+#verti1{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 30px;
+}
+#verti2{
+    display: flex;
+    align-items: center;
+}
+#verti2 h2{
+    transform: rotate(90deg);
+    color: antiquewhite;
+}
+#hori1 img{
+    margin-left: -70px;
+}
+
+#hori1 h5{
+    color: hsl(red, 0, 100);
+    margin-left: 50px;
+    letter-spacing: 0.2em;
+    margin-bottom: 70px;
+}
+#horimage img{
+    left: 0%;
+    bottom: 100%;
+    width: 60px;
+    border-radius: 10px;
+}
+#info{
+
+}
+
+#hori2{
+    display: flex;
+    flex-direction: row;
+}
